@@ -1,0 +1,43 @@
+html, body {
+    background-image: url('http://cdn.designbyhumans.com/pictures/blog/02-2014/wolf_tees/black_rose.jpg');
+    background-size: cover;
+    background-color: black;
+    z-index: -2;
+    border-bottom: solid peachpuff;
+}
+
+.container {
+    height: 20em;
+    text-align: center;
+}
+
+hr, p {
+    max-width: 25em;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, Serif;
+    letter-spacing: 0.1em;
+    margin: 40px auto;
+    line-height: 145%;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    z-index: -1;
+}
+
+#btn {
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border: thin solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#btn:hover {
+    background-color: white;
+    color: black;
+    border: thin solid black;
+    opacity: 0.6;
+}
